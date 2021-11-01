@@ -1,5 +1,3 @@
-# Kerberos认证流程
-
 # 一、Kerberos简介
 
 Kerberos协议由麻省理工学院开发，如今主要被用于Windows网络认证，Windows 2000和之后的操作系统使用Kerberos协议为其默认认证方法。加入Windows域则代表启动Kerberos作为客户端到服务端认证的默认协议，如果双方其一或全都未加入Windows域，则使用NTLM进行身份验证。
@@ -17,7 +15,7 @@ Kerberos协议认证过程中主要存在三种角色：
 
 Kerberos协议的认证流程如下图所示：
 
-![](https://adan0s-1256533472.cos.ap-nanjing.myqcloud.com/typora/image001.png#alt=Kerberos%20V5%20Exchanges)
+![](https://adan0s-1256533472.cos.ap-nanjing.myqcloud.com/uPic/20211027112800783vop.png)
 
 ## 1. KRB_AS_REQ
 
